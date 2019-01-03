@@ -946,3 +946,232 @@ Started GET "/assets/application.js?body=1" for 10.10.1.102 at 2018-09-26 17:59:
 
 
 Started GET "/assets/movies.js?body=1" for 10.10.1.92 at 2018-09-26 17:59:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "George Timothy Clooney is an American actor, writer, producer, director, and activist. He has received three Golden Globe Awards for his ..."], ["created_at", "2019-01-03 15:08:13.900775"], ["first_name", "George"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/george-clooney.jpg"], ["last_name", "Clooney"], ["updated_at", "2019-01-03 15:08:13.900775"]]
+  [1m[35m (137.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Matthew Paige \"Matt\" Damon is an American actor, voice actor, screenwriter, producer, and philanthropist."], ["created_at", "2019-01-03 15:08:14.043768"], ["first_name", "Matt"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/matt-damon.jpg"], ["last_name", "Damon"], ["updated_at", "2019-01-03 15:08:14.043768"]]
+  [1m[36m (106.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "William Bradley \"Brad\" Pitt is an American actor and producer. He has received a Golden Globe Award, a Screen Actors Guild Award, and thr..."], ["created_at", "2019-01-03 15:08:14.154816"], ["first_name", "Brad"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/brad-pitt.jpg"], ["last_name", "Pitt"], ["updated_at", "2019-01-03 15:08:14.154816"]]
+  [1m[35m (138.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Elliott Gould is an American actor. He began acting in Hollywood films during the 1960s, and has remained prolific ever since. "], ["created_at", "2019-01-03 15:08:14.297141"], ["first_name", "Elliot"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/elliot-gould.jpg"], ["last_name", "Gould"], ["updated_at", "2019-01-03 15:08:14.297141"]]
+  [1m[36m (97.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Julia Fiona Roberts is an American actress and producer. She became a Hollywood star after headlining the romantic comedy Pretty Woman, w..."], ["created_at", "2019-01-03 15:08:14.399324"], ["first_name", "Julia"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/julia-roberts.jpg"], ["last_name", "Roberts"], ["updated_at", "2019-01-03 15:08:14.399324"]]
+  [1m[35m (106.8ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Mark Robert Michael Wahlberg is an American actor, producer, model, and former rapper. He was known as Marky Mark in his earlier years, b..."], ["created_at", "2019-01-03 15:08:14.510331"], ["first_name", "Mark"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/mark-wahlberg.jpg"], ["last_name", "Wahlberg"], ["updated_at", "2019-01-03 15:08:14.510331"]]
+  [1m[36m (162.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Marion Cotillard is a French actress, singer, songwriter, environmentalist and spokesperson for Greenpeace."], ["created_at", "2019-01-03 15:08:14.676318"], ["first_name", "Marion"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/marion-cotillard.jpg"], ["last_name", "Cotillard"], ["updated_at", "2019-01-03 15:08:14.676318"]]
+  [1m[35m (96.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Laurence John Fishburne III is an American actor, playwright, director, and producer. He is best known for his roles as Morpheus in the M..."], ["created_at", "2019-01-03 15:08:14.775964"], ["first_name", "Laurence"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/laurence-fishburne.jpg"], ["last_name", "Fishburne"], ["updated_at", "2019-01-03 15:08:14.775964"]]
+  [1m[36m (120.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "David Jude Heyworth Law, known professionally as Jude Law, is an English actor, film producer and director. He began acting with the Nati..."], ["created_at", "2019-01-03 15:08:14.898917"], ["first_name", "Jude"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/jude-law.jpg"], ["last_name", "Law"], ["updated_at", "2019-01-03 15:08:14.898917"]]
+  [1m[35m (142.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Gwyneth Kate Paltrow is an American actress, singer, and food writer. Paltrow gained early notice for her work in films such as the psych..."], ["created_at", "2019-01-03 15:08:15.045340"], ["first_name", "Gwyneth"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/gwyneth-paltrow.jpg"], ["last_name", "Paltrow"], ["updated_at", "2019-01-03 15:08:15.045340"]]
+  [1m[36m (105.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Kate Elizabeth Winslet, CBE, is an English actress and singer. She is the recipient of an Academy Award, an Emmy Award, three Golden Glob..."], ["created_at", "2019-01-03 15:08:15.154529"], ["first_name", "Kate"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/kate-winslet.jpg"], ["last_name", "Winslet"], ["updated_at", "2019-01-03 15:08:15.154529"]]
+  [1m[35m (118.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Bryan Lee Cranston is an American actor, voice actor, screenwriter, director and producer. Cranston is best known for portraying Walter W..."], ["created_at", "2019-01-03 15:08:15.276658"], ["first_name", "Bryan"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bryan-cranston.jpg"], ["last_name", "Cranston"], ["updated_at", "2019-01-03 15:08:15.276658"]]
+  [1m[36m (156.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Leonardo Wilhelm DiCaprio is an American actor and film producer. He has been nominated for ten Golden Globe Awards, winning two, and fo..."], ["created_at", "2019-01-03 15:08:15.437839"], ["first_name", "Leonardo"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/leonardo-dicaprio.jpg"], ["last_name", "DiCaprio"], ["updated_at", "2019-01-03 15:08:15.437839"]]
+  [1m[35m (123.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "John Joseph \"Jack\" Nicholson is an American actor, film director, producer, and writer. Throughout his career, Nicholson has portrayed un..."], ["created_at", "2019-01-03 15:08:15.565502"], ["first_name", "Jack"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/jack-nicholson.jpg"], ["last_name", "Nicholson"], ["updated_at", "2019-01-03 15:08:15.565502"]]
+  [1m[36m (87.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Joseph Leonard Gordon-Levitt is an American actor and filmmaker. As a child star, he appeared in the films A River Runs Through It, Angel..."], ["created_at", "2019-01-03 15:08:15.657076"], ["first_name", "Joseph"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/joseph-gordon-levitt.jpg"], ["last_name", "Gordon-Levitt"], ["updated_at", "2019-01-03 15:08:15.657076"]]
+  [1m[35m (145.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Edward Thomas \"Tom\" Hardy is an English actor. Hardy's notable film roles include the science fiction film Star Trek: Nemesis, the Guy Ri..."], ["created_at", "2019-01-03 15:08:15.806005"], ["first_name", "Tom"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/tom-hardy.jpg"], ["last_name", "Hardy"], ["updated_at", "2019-01-03 15:08:15.806005"]]
+  [1m[36m (91.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Cillian Murphy is an Irish actor of stage and screen. Since making his debut in his home country in the late 1990s, Murphy has also becom..."], ["created_at", "2019-01-03 15:08:15.901624"], ["first_name", "Cillian"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/cillian-murphy.jpg"], ["last_name", "Murphy"], ["updated_at", "2019-01-03 15:08:15.901624"]]
+  [1m[35m (106.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Christian Charles Philip Bale is an English actor. He has starred in both blockbuster films and smaller projects from independent produce..."], ["created_at", "2019-01-03 15:08:16.011530"], ["first_name", "Christian"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/christian-bale.jpg"], ["last_name", "Bale"], ["updated_at", "2019-01-03 15:08:16.011530"]]
+  [1m[36m (138.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Morgan Freeman is an American actor, film director, and narrator. Freeman has received Academy Award nominations for his performances in ..."], ["created_at", "2019-01-03 15:08:16.152498"], ["first_name", "Morgan"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/morgan-freeman.jpg"], ["last_name", "Freeman"], ["updated_at", "2019-01-03 15:08:16.152498"]]
+  [1m[35m (89.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Robert John Downey Jr. is an American actor, producer, and singer. Making his screen debut at the age of five, appearing in his father Ro..."], ["created_at", "2019-01-03 15:08:16.246002"], ["first_name", "Robert"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/rdj.jpg"], ["last_name", "Downey Jr."], ["updated_at", "2019-01-03 15:08:16.246002"]]
+  [1m[36m (107.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Terrence Dashon Howard is an American actor and singer. Having his first major role in the 1995 film Dead Presidents, and Mr. Holland's O..."], ["created_at", "2019-01-03 15:08:16.356989"], ["first_name", "Terrence"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/terrence-howard.jpg"], ["last_name", "Howard"], ["updated_at", "2019-01-03 15:08:16.356989"]]
+  [1m[35m (137.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Jeffrey Leon \"Jeff\" Bridges is an American actor, country musician, and producer. He comes from a well-known acting family and began his ..."], ["created_at", "2019-01-03 15:08:16.499056"], ["first_name", "Jeff"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/jeff-bridges.jpg"], ["last_name", "Bridges"], ["updated_at", "2019-01-03 15:08:16.499056"]]
+  [1m[36m (87.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Rachel Anne McAdams is a Canadian actress. After graduating from a four-year theatre program at York University in 2001, she initially wo..."], ["created_at", "2019-01-03 15:08:16.589301"], ["first_name", "Rachel"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/rachel-mcadams.jpg"], ["last_name", "McAdams"], ["updated_at", "2019-01-03 15:08:16.589301"]]
+  [1m[35m (95.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Mark Strong is an English film and television actor. He is best known for his role in the television series Our Friends in the North and ..."], ["created_at", "2019-01-03 15:08:16.686757"], ["first_name", "Mark"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/mark-strong.jpg"], ["last_name", "Strong"], ["updated_at", "2019-01-03 15:08:16.686757"]]
+  [1m[36m (144.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Diane Lane is an American actress. Born and raised in New York City, Lane made her screen debut in George Roy Hill's 1979 film A Little R..."], ["created_at", "2019-01-03 15:08:16.834210"], ["first_name", "Diane"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/diane-lane.jpg"], ["last_name", "Lane"], ["updated_at", "2019-01-03 15:08:16.834210"]]
+  [1m[35m (96.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Ellen Philpotts-Page, known professionally as Ellen Page, is a Canadian actress. She started her career in Canada with roles in the telev..."], ["created_at", "2019-01-03 15:08:16.933906"], ["first_name", "Ellen"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/ellen-page.jpg"], ["last_name", "Page"], ["updated_at", "2019-01-03 15:08:16.933906"]]
+  [1m[36m (95.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Anne Jacqueline Hathaway is an American actress, singer, and producer. After several stage roles, she appeared in the 1999 television ser..."], ["created_at", "2019-01-03 15:08:17.031091"], ["first_name", "Anne"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/anne-hathaway.jpg"], ["last_name", "Hathaway"], ["updated_at", "2019-01-03 15:08:17.031091"]]
+  [1m[35m (135.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Sir Michael Caine, CBE is an English actor and author. Renowned for his distinctive Cockney accent, Caine has appeared in over 115 films ..."], ["created_at", "2019-01-03 15:08:17.169534"], ["first_name", "Michael"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/michael-caine.jpg"], ["last_name", "Caine"], ["updated_at", "2019-01-03 15:08:17.169534"]]
+  [1m[36m (105.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Natalie Portman is an Israeli-born American actress, producer, and director. Her first role was in the 1994 action thriller Léon: The Pr..."], ["created_at", "2019-01-03 15:08:17.279562"], ["first_name", "Natalie"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/natalie-portman.png"], ["last_name", "Portman"], ["updated_at", "2019-01-03 15:08:17.279562"]]
+  [1m[35m (106.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["bio", "Clive Owen is an English actor who first gained recognition in the United Kingdom for playing the lead role in the ITV series Chancer fro..."], ["created_at", "2019-01-03 15:08:17.390479"], ["first_name", "Clive"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/clive-owen.jpg"], ["last_name", "Owen"], ["updated_at", "2019-01-03 15:08:17.390479"]]
+  [1m[36m (144.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "actors" ("bio", "created_at", "first_name", "image", "last_name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["bio", "Matthew David McConaughey is an American actor and producer. He first gained notice for his breakout role in the coming-of-age comedy Daz..."], ["created_at", "2019-01-03 15:08:17.539518"], ["first_name", "Matthew"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/matthew-mcconaughey.jpg"], ["last_name", "McConaughey"], ["updated_at", "2019-01-03 15:08:17.539518"]]
+  [1m[35m (91.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2019-01-03 15:08:17.648879"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/oceans-11.jpg"], ["plot", "Dapper Danny Ocean (George Clooney) is a man of action. Less than 24 hours into his parole from a New Jersey penitentiary, the wry, chari..."], ["release_year", "2001"], ["title", "Ocean's 11"], ["updated_at", "2019-01-03 15:08:17.648879"]]
+  [1m[36m (91.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2019-01-03 15:08:17.742278"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/the-perfect-storm.jpg"], ["plot", "Based on a true story, the film tells of the courageous men and women who risk their lives every working day, pitting their fishing boats..."], ["release_year", "2000"], ["title", "The Perfect Storm"], ["updated_at", "2019-01-03 15:08:17.742278"]]
+  [1m[35m (132.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2019-01-03 15:08:17.876865"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/contagion.jpg"], ["plot", "When Beth Emhoff (Gwyneth Paltrow) returns to Minnesota from a Hong Kong business trip, she attributes the malaise she feels to jet lag ..."], ["release_year", "2011"], ["title", "Contagion"], ["updated_at", "2019-01-03 15:08:17.876865"]]
+  [1m[36m (139.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2019-01-03 15:08:18.020056"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/the-departed.jpg"], ["plot", "South Boston cop Billy Costigan (Leonardo DiCaprio) goes under cover to infiltrate the organization of gangland chief Frank Costello (Jac..."], ["release_year", "2006"], ["title", "The Departed"], ["updated_at", "2019-01-03 15:08:18.020056"]]
+  [1m[35m (88.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2019-01-03 15:08:18.112038"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/inception.jpg"], ["plot", "Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious ..."], ["release_year", "2010"], ["title", "Inception"], ["updated_at", "2019-01-03 15:08:18.112038"]]
+  [1m[36m (95.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2019-01-03 15:08:18.210188"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/dark-knight-rises.jpg"], ["plot", "It has been eight years since Batman (Christian Bale), in collusion with Commissioner Gordon (Gary Oldman), vanished into the night. Assu..."], ["release_year", "2012"], ["title", "The Dark Knight Rises"], ["updated_at", "2019-01-03 15:08:18.210188"]]
+  [1m[35m (118.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2019-01-03 15:08:18.333106"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/iron-man.jpg"], ["plot", "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kid..."], ["release_year", "2008"], ["title", "Iron Man"], ["updated_at", "2019-01-03 15:08:18.333106"]]
+  [1m[36m (86.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2019-01-03 15:08:18.424240"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/sherlock-holmes.jpg"], ["plot", "When a string of brutal murders terrorizes London, it doesn't take long for legendary detective Sherlock Holmes (Robert Downey Jr.) and ..."], ["release_year", "2009"], ["title", "Sherlock Holmes"], ["updated_at", "2019-01-03 15:08:18.424240"]]
+  [1m[35m (218.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2019-01-03 15:08:18.646504"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/closer.jpg"], ["plot", "Alice (Natalie Portman), who has moved to London, meets Dan (Jude Law) on the street. While looking at him, a taxi hits her. After taking ..."], ["release_year", "2004"], ["title", "Closer"], ["updated_at", "2019-01-03 15:08:18.646504"]]
+  [1m[36m (139.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("created_at", "image", "plot", "release_year", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2019-01-03 15:08:18.790801"], ["image", "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/interstellar.jpg"], ["plot", "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Cai..."], ["release_year", "2014"], ["title", "Interstellar"], ["updated_at", "2019-01-03 15:08:18.790801"]]
+  [1m[35m (103.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "parts" ("actor_id", "created_at", "movie_id", "updated_at") VALUES (?, ?, ?, ?)  [["actor_id", 32], ["created_at", "2019-01-03 15:08:18.946273"], ["movie_id", 11], ["updated_at", "2019-01-03 15:08:18.946273"]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_parts_on_actor_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_parts_on_actor_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_parts_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_parts_on_movie_id' AND type='index'
+
+
+
+Started GET "/tags/2" for 127.0.0.1 at 2019-01-03 16:08:46 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/tags/2"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/kacper/.rbenv/versions/2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/kacper/.rbenv/versions/2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/kacper/.rbenv/versions/2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/kacper/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/kacper/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/kacper/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.8ms)
+  Rendered /home/kacper/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2019-01-03 16:08:50 +0100
+
+
+Started GET "/movies" for 127.0.0.1 at 2019-01-03 16:08:53 +0100
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 700ms (Views: 680.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/actors.css?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/actors.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/communication.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2019-01-03 16:08:54 +0100
+
+
+Started GET "/movies/8" for 127.0.0.1 at 2019-01-03 16:09:11 +0100
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies"  WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mActor Load (0.3ms)[0m  SELECT "actors".* FROM "actors" INNER JOIN "parts" ON "actors"."id" = "parts"."actor_id" WHERE "parts"."movie_id" = ?  [["movie_id", 8]]
+  Rendered movies/show.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 132ms (Views: 105.7ms | ActiveRecord: 1.1ms)
